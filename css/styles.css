@@ -1,0 +1,82 @@
+/* Reglas por defecto */
+
+* {
+    box-sizing: border-box;
+    /* https://fonts.google.com */
+    font-family: 'Quicksand', sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+/*Reglas de las columnas*/
+
+.column-1 {
+    width: 50%;
+    float: left;
+    padding: 100px;
+}
+
+.column-1 p {
+    font-size: 40px;
+}
+
+.column-1 h1 {
+    font-size: 80px;
+}
+
+.column-2 {
+    text-align: center;
+    font-size: 20px;
+    width: 25%;
+    float: left;
+    padding: 30px 40px;
+}
+
+.column-4 {
+    width: 25%;
+    float: left;
+}
+
+.column-5 {
+    width: 100%;
+    float: left;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px 150px;
+    background-color: blue;
+}
+
+.column-6 {
+    text-align: center;
+}
+
+
+/*Reglas de los id*/
+
+#header {
+    width: 100%;
+    float: left;
+    background-image: url('../img/banner-2.jpg');
+    font-size: 60px;
+    text-align: center;
+    padding: 500px 150px;
+}
+
+#section-2 {
+    width: 100%;
+    float: left;
+    background-color: aquamarine;
+    text-align: center;
+    font-size: 50px;
+}
+
+#section-1 {
+    background-color: white;
+}
+
+#section-5 {
+    width: 100%;
+}
